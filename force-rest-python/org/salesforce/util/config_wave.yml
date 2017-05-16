@@ -1,0 +1,12 @@
+credentials:
+    client_id: 3MVG9ZL0ppGP5UrC4Lk2hKvcA3KLEtpZzQZ4rDUTiTIWAmJwirpzNKSCQoTkGciFHEmpCnTLMWrgKjv2fn6AC
+    client_secret: 3734150239852118890
+    username: dua_rajdeep1@yahoo.com
+    password: wave@123nI0vfzK49VDBbBYx3AbXnjfx
+    host: ap2.salesforce.com
+    wave_base_url: /services/data/v36.0/wave/
+    base_url: /services/data/v36.0/sobjects/
+    login_url: https://login.salesforce.com
+    base_soql_url: /services/data/v36.0/query/?q=
+    grant_service: /services/oauth2/token?grant_type=password
+

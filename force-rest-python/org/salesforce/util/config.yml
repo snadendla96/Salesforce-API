@@ -1,0 +1,13 @@
+credentials:
+    client_id: 3MVG9i1HRpGLXp.oKVGVe6sAARoGhuze6N9JJ6nGR5qN_2RgmlIV1gKv6e5GvMPBXPIa.GYfyx2DIPsnnz.N3
+    client_secret: 5231357037580720003
+    username: snadendla@sf.com 
+    password: Srihari189$luXFn0TiFXWRC0Qr9K2dUrpwa
+    host: na40.salesforce.com
+    wave_base_url: /services/data/v39.0/wave/
+    base_url: /services/data/v39.0/sobjects/
+    login_url: https://login.salesforce.com
+    base_soql_url: /services/data/v39.0/query/?q=
+    apex_rest: /services/apexrest/
+    apex_limits: /services/data/v39.0/limits/
+    grant_service: /services/oauth2/token?grant_type=password
