@@ -18,8 +18,9 @@ class Students:
         access_token = util.get_access_token()['access_token']
         data = util.apexrest_post('Students', self.new_object)
         print data
-        pp = pprint.PrettyPrinter(indent=4)
-        pp.pprint(json.loads(data))
+        #pretty printer is not good in showing the output
+        # pp = pprint.PrettyPrinter(indent=4)
+        # pp.pprint(json.loads(data))
       
 
     def delete(self, obj_id):

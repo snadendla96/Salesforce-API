@@ -173,7 +173,7 @@ def apexrest(soql):
     return data
 
 
-    # ####################################Apex Rest Get################################################################
+####################################Apex Rest Get#####################################################################
 
 #####################################Apex Rest Api Post################################################################
 
@@ -183,7 +183,7 @@ def apexrest_post(object_name, data):
     access_token_header = {'Authorization': 'Bearer ' + access_token,
                            'Content-type': 'application/json'}
     url = apex_rest + object_name
-     # ####json_data = json.dumps(data).decode('unicode-escape')################Working Code##################33
+     # ####json_data = json.dumps(data).decode('unicode-escape')################Working Code##########################
     # data=repr(data)
     json_data = data
     conn = get_connection()
@@ -191,7 +191,6 @@ def apexrest_post(object_name, data):
     res = conn.getresponse()
     data = res.read().decode('utf-8')
     return data
-
 
 #####################################Apex Rest Api Post################################################################
 
@@ -215,7 +214,7 @@ def apexrest_patch(object_name, data):
     return data
 
 
-    # ####################################Apex Rest Api Patch################################################################
+    # ####################################Apex Rest Api Patch##############################################################
  # ####################################Apex Rest Api Delete################################################################
 
 def apexrest_delete(object_name, object_id):
@@ -237,11 +236,8 @@ def apexlimit():
 
     access_token_header = {'Authorization': 'Bearer ' + access_token,
                            'Content-type': 'application/json'}
-
     url = apex_limits
-
     # print url;
-
     conn = get_connection()
     conn.request('GET', url, '', access_token_header)
     res = conn.getresponse()
